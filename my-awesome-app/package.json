@@ -1,0 +1,56 @@
+{
+  "name": "my-awesome-app",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "body-parser": "^1.20.2",
+    "dotenv": "^8.6.0",
+    "express": "^4.18.2",
+    "json-diff-ts": "^2.1.0",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^7.2.9",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src server.js",
+    "serve": "nodemon server.ts",
+    "debug": "nodemon --inspect server.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/express": "^4.17.20",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^12.20.55",
+    "@types/react": "^17.0.69",
+    "@types/react-dom": "^17.0.22",
+    "@types/react-redux": "^7.1.28",
+    "eslint": "^7.32.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^2.2.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^1.1.2"
+  }
+}

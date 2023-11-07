@@ -1,0 +1,3 @@
+This project (based on https://github.com/howlowck/cra-template-ts-redux-express) demonstrates separating the reducers and the point-of-truth redux store to the backend. 
+
+In the client side, a middleware catches the actions and sends them to the backend, which performs the action and returns the diff in the store state. The client then apllies the diff ("patch") locally to it's own store to reflect the changes.
